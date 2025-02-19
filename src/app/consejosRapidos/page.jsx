@@ -13,6 +13,11 @@ const App = () => {
               ESTO <span className="text-[#000000]">ES SOLO UNA PRUEBA<br /></span>
               PARA VER <span className="text-[#000000]">LOS ARREGLOS DE LAS VENTANAS</span>
             </h1>
+
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+              ESTO <span className="text-[#000000]">ES SOLO UNA PRUEBA<br /></span>
+              PARA VER <span className="text-[#000000]">LOS ARREGLOS DE LAS VENTANAS</span>
+            </h1>
       {/* Hero Section */}
       <section className="w-full bg-gradient-to-r from-[#824058] to-[#a46372]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-4">
