@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import Header from './componentes/header';
 import Image from 'next/image';
@@ -162,7 +161,6 @@ const App = () => {
 };
 
 export default App;
-=======
 import Image from "next/image";
 
 export default function Home() {
@@ -264,4 +262,3 @@ export default function Home() {
     </div>
   );
 }
->>>>>>> d4a1847 (Initial commit from Create Next App)

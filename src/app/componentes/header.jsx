@@ -8,8 +8,12 @@ const Header = () => {
             <nav className="max-w-7xl mx-auto flex items-center justify-between">
                 {/* Left Section */}
                 <div className="flex space-x-6">
-                    <a href="/src/app/page.js" className="text-black text-lg font-semibold hover:text-gray-200 transition duration-300 ease-in-out transform hover:scale-110">INICIO</a>
-                    <a href="/src/app/modulos/page.jsx" className="text-black text-lg font-semibold hover:text-gray-200 transition duration-300 ease-in-out transform hover:scale-110">MODULOS</a>
+                    <Link href="/" className="text-black text-lg font-semibold hover:text-gray-200 transition duration-300 ease-in-out transform hover:scale-110">
+                        INICIO
+                    </Link>
+                    <Link href="/modulos" className="text-black text-lg font-semibold hover:text-gray-200 transition duration-300 ease-in-out transform hover:scale-110">
+                        MODULOS
+                    </Link>
                 </div>
 
                 {/* Logo */}
@@ -25,9 +29,21 @@ const Header = () => {
                 </Link>
 
                 {/* Right Section */}
-                <div className="flex space-x-6">
-                    <a href="/src/app/consejosRapidos/page.jsx" className="text-black text-lg font-semibold hover:text-gray-200 transition duration-300 ease-in-out transform hover:scale-110">CONSEJO RÁPIDO</a>
-                    <a href="/src/app/contacto/page.jsx" className="text-black text-lg font-semibold hover:text-gray-200 transition duration-300 ease-in-out transform hover:scale-110">CONTACTO</a>
+                <div className="flex space-x-6 items-center">
+                    <Link href="/consejosRapidos" className="text-black text-lg font-semibold hover:text-gray-200 transition duration-300 ease-in-out transform hover:scale-110">
+                        CONSEJO RÁPIDO
+                    </Link>
+                    <Link href="/contacto" className="text-black text-lg font-semibold hover:text-gray-200 transition duration-300 ease-in-out transform hover:scale-110">
+                        CONTACTO
+                    </Link>
+
+                    {/* Botón de Login */}
+                    <Link
+                        href="/login"
+                        className="bg-blue-500 text-white px-4 py-2 rounded-md text-lg font-semibold hover:bg-blue-600 transition duration-300 ease-in-out transform hover:scale-105"
+                    >
+                        LOGIN
+                    </Link>
                 </div>
             </nav>
         </header>
